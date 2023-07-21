@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+download:
+  data:
+    cron: "* * * * * ?"
+
+spring:
+  quartz:
+    job-store-type: memory
